@@ -1,0 +1,48 @@
+*{
+  box-sizing: border-box;
+}
+
+.body{
+  display: flex;
+  justify-content: space-around;
+}
+
+.div__body{
+  width: 150px;
+  height: 250px;
+  background-color: rgb(179, 134, 51);
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px -7px #68696B;
+}
+
+.div__div{
+  text-align: center;
+  border-radius: 5px;
+  width: 80%;
+  height: 10%;
+  margin: 10px 15px;
+  text-align: center;
+  background-color: rgb(211, 211, 211);
+  border-radius: 5px;
+}
+
+.div2__div{
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.button__div2{
+  width: 50%;
+  background-color: black;
+  color: rgb(239, 181, 92);
+  border: 1px solid gray;
+  cursor: pointer;
+}
+
+.button__div2:nth-child(5){
+  order: 1;
+  width: 100%;
+}
